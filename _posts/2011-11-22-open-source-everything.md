@@ -1,78 +1,83 @@
 ---
 layout: post
-title: Open Source (Almost) Everything
+title: my Fall 2020 classes
+categories: reflection
 ---
 
 {{ page.title }}
 ================
 
-<p class="meta">22 Nov 2011 - San Francisco</p>
+<p class="meta">20 Dec 2020 - Michigan</p>
 
-When Chris and I first started working on GitHub in late 2007, we split the work into two parts. Chris worked on the Rails app and I worked on Grit, the first ever Git bindings for Ruby. After six months of development, Grit had become complete enough to power GitHub during our public launch of the site and we were faced with an interesting question:
+### *Data Structures & Algorithms*
+This class is very well-known for being one of the most important CS classes and one of the hardest ones. The content was definitely challenging, but I think all the hype prepared my mindset. In addition, my Summer internship also let me stay in the coding momentum over break.
 
-Should we open source Grit or keep it proprietary?
+#### Lecture/Lab Content
+For the first half, we learned about stacks & queues (and deques), complexity analysis, measuring performance & analysis, recursion, arrays & containers, STL, heaps & heapsort, ordered and sorted containers (STL) & sets (union-find and path compression), elementary sorts (bubble, selection, and insertion sort), quicksort, merge sort, and strings & sequences.
 
-Keeping it private would provide a higher hurdle for competing Ruby-based Git hosting sites, giving us an advantage. Open sourcing it would mean thousands of people worldwide could use it to build interesting Git tools, creating an even more vibrant Git ecosystem.
+For the second half, we learned about hash functions, hash tables and collision resolution, trees (+ tree traversals), graphs, MST (Prim's & Kruskal's algorithms), algorithm families, backtracking & branch-and-bound (+ TSP), dynamic programming (+ knapsack problem), and shortest-path algorithm (Dijkstra's algorithm).
 
-After a small amount of debate we decided to open source Grit. I don't recall the specifics of the conversation but that decision nearly four years ago has led to what I think is one of our most important core values: open source (almost) everything.
+#### Projects
+**Project 1: Letterman**
 
-Why is it awesome to open source (almost) everything?
------------------------------------------------------
+I found this project to be quite straightforward. We had to process a bunch of words to figure out if a specified start word can reach a specified end word by connecting intermediate words. This connection happens if two words are the same if two letters swap, if one letter is inserted/deleted, etc.
 
-If you do it right, open sourcing code is **great advertising** for you and your company. At GitHub we like to talk publicly about libraries and systems we've written that are still closed but destined to become open source. This technique has several advantages. It helps determine what to open source and how much care we should put into a launch. We recently open sourced Hubot, our chat bot, to widespread delight. Within two days it had 500 watchers on GitHub and 409 upvotes on Hacker News. This translates into goodwill for GitHub and more superfans than ever before.
+We used *stacks* and *queues* to experiment with *depth-first-search* and *breath-first-search*.
 
-If your code is popular enough to attract outside contributions, you will have created a **force multiplier** that helps you get more work done faster and cheaper. More users means more use cases being explored which means more robust code. Our very own [resque](https://github.com/defunkt/resque) has been improved by 115 different individuals outside the company, with hundreds more providing 3rd-party plugins that extend resque's functionality. Every bug fix and feature that you merge is time saved and customer frustration avoided.
+It was also one of my first experiences trying to optimize time and memory complexities. For both this project and the rest, I found Piazza to be a helpful resource for optimization tips.
 
-Smart people like to hang out with other smart people. Smart developers like to hang out with smart code. When you open source useful code, you **attract talent**. Every time a talented developer cracks open the code to one of your projects, you win. I've had many great conversations at tech conferences about my open source code. Some of these encounters have led to ideas that directly resulted in better solutions to problems I was having with my projects. In an industry with such a huge range of creativity and productivity between developers, the right eyeballs on your code can make a big difference.
+**Project 2: Mine all Mine**
 
-If you're hiring, **the best technical interview possible** is the one you don't have to do because the candidate is already kicking ass on one of your open source projects. Once technical excellence has been established in this way, all that remains is to verify cultural fit and convince that person to come work for you. If they're passionate about the open source code they've been writing, and you're the kind of company that cares about well-crafted code (which clearly you are), that should be simple! We hired [Vicent Martí](https://github.com/tanoku) after we saw him doing stellar work on [libgit2](https://github.com/libgit2/libgit2), a project we're spearheading at GitHub to extract core Git functionality into a standalone C library. No technical interview was necessary, Vicent had already proven his skills via open source.
+This project was split into two parts: Part A and Part B. Part A was more difficult to comprehend. It was about mining on the map and encountering explosions. And it revolved around *recursion*, multiple *priority queues*, and a *two-dimensional vector* map. It was about mining on the map and encountering explosions. However, despite some messy code, I managed to finish this part pretty fast. 
 
-Once you've hired all those great people through their contributions, dedication to open source code is an amazingly effective way to **retain that talent**. Let's face it, great developers can take their pick of jobs right now. These same developers know the value of coding in the open and will want to build up a portfolio of projects they can show off to their friends and potential future employers. That's right, a paradox! In order to keep a killer developer happy, you have to help them become more attractive to other employers. But that's ok, because that's exactly the kind of developer you want to have working for you. So relax and let them work on open source or they'll go somewhere else where they can.
+Part B was implementing three different types of priority queues: unsorted, sorted, and binary. Unsorted and sorted PQs were confusing for me, as I didn't know how to start, but the staff resources helped a lot, and everything became much more straightforward. With the first two done, Binary PQ wasn't bad, though indexing one off was something I had to be careful of.
 
-When I start a new project, I assume it will eventually be open sourced (even if it's unlikely). This mindset leads to **effortless modularization**. If you think about how other people outside your company might use your code, you become much less likely to bake in proprietary configuration details or tightly coupled interfaces. This, in turn, leads to cleaner, more maintainable code. Even internal code should pretend to be open source code. 
+**Project 3: SillyQL**
 
-Have you ever written an amazing library or tool at one job and then left to join another company only to rewrite that code or remain miserable in its absence? I have, and it sucks. By getting code out in the public we can drastically **reduce duplication of effort**. Less duplication means more work towards things that matter.
+This SQL-esque sounding project simulates a database. We can create/remove tables, insert/delete/print rows of data, and join tables together. 
 
-Lastly, **it's the right thing to do**. It's almost impossible to do anything these days without directly or indirectly executing huge amounts of open source code. If you use the internet, you're using open source. That code represents millions of man-hours of time that has been spent and then given away so that everyone may benefit. We all enjoy the benefits of open source software, and I believe we are all morally obligated to give back to that community. If software is an ocean, then open source is the rising tide that raises all ships.
+A complicated part was to generate an index on the column, which also affected implementations of other functions. Here, we can generate an *binary search tree* or *hash table* on a column of data to speed things up. This part was challenging for me, because it took me awhile to understand how the index affected other functions.
 
-Ok, then what shouldn't I open source?
---------------------------------------
+I had steady progress on the project over some days, and spent a big chunk of time on optimizing, especially with the aforementioned index.
 
-That's easy. Don't open source anything that represents core business value.
+**Project 4: Among Us**
 
-Here are some examples of what we don't open source and why:
+The last project is probably one of the easiest out of the four. I finished most of it in one sitting + a few more optimizations later on. Though when I mean "one sitting", I mean from afternoon to 4am the next morning. It's difficult to stop the coding momentum when it comes.
 
-* Core GitHub Rails app (easier to sell when closed)
-* The Jobs Sinatra app (specially crafted integration with github.com)
+(Side note: sleeping at consistent times is one of my biggest challenges, so I need to work on that more)
 
-Here are some examples of things we do open source and why:
+The Among Us project is split into three parts. Part A was Imposter. We had to implement *Prim's algorithm* on a *two-dimensional vector* map to determine the MST between rooms (or vertices). Part B was Fast Ghost. We had to use *heuristics* to calculate a fast solution to find a relatively optimal Hamiltonian path between all the rooms. I used nearest insertion with arbitrary insertion.
 
-* Grit (general purpose Git bindings, useful for building many tools)
-* Ernie (general purpose BERT-RPC server)
-* Resque (general purpose job processing)
-* Jekyll (general purpose static site generator)
-* Gollum (general purpose wiki app)
-* Hubot (general purpose chat bot)
-* Charlock_Holmes (general purpose character encoding detection)
-* Albino (general purpose syntax highlighting)
-* Linguist (general purpose filetype detection)
+Part C was Optimal Ghost. We implemented *branch-and-bound* to find the optimal Hamiltonian path between all the rooms. We had to use the heuristic from Part B to find an initial solution as the *upper bound* and Prim's algorithm from Part A to calculate the estimated *lower bound* for *pruning*.
 
-Notice that everything we keep closed has specific business value that could be compromised by giving it away to our competitors. Everything we open is a general purpose tool that can be used by all kinds of people and companies to build all kinds of things.
+I found this course to be important in teaching me all the fundamental data structures and algorithms. The projects and lab assignments were very informative.
 
-What is the One True License?
------------------------------
+### *Introduction to Statistics and Data Analysis*
 
-I prefer the MIT license and almost everything we open source at GitHub carries this license. I love this license for several reasons:
+At the start, I learned about summary measures, probabilities, linear regression, and p-values. Then, I learned about concepts and calculations of confidence intervals and hypothesis testing for proportions, differences in proportions, sample means, difference in sample means, and paired data. I also learned about simple and multiple regression models.
 
-* It's short. Anyone can read this license and understand exactly what it means without wasting a bunch of money consulting high-octane lawyers.
+R was an interesting and useful language to learn about. It focuses on analyzing data, such as calculating p-values for hypothesis testing. And it's super fast than otherwise manually deriving from formulas and equations, especially if one is dealing with a large amount of data.
 
-* Enough protection is offered to be relatively sure you won't sue me if something goes wrong when you use my code.
+Overall, this class let me have a clearer idea on what statistical values means, the complications made with context, and the necessity of statistics as evidence.
 
-* Everyone understands the legal implications of the MIT license. Weird licenses like the WTFPL and the Beer license pretend to be the "ultimate in free licenses" but utterly fail at this goal. These fringe licenses are too vague and unenforceable to be acceptable for use in some companies. On the other side, the GPL is too restrictive and dogmatic to be usable in many cases. I want everyone to benefit from my code. Everyone. That's what Open should mean, and that's what Free should mean.
+### *Introduction to Cognitive Psychology*
 
-Rad, how do I get started?
---------------------------
+For the first half of the course, we learned about history & methodology of cognitive psychology, how to study & desirable difficulties, perception (visual system, pattern recognition from bottom-up and top-down, attention, visual imagery, and visuospatial processing.
 
-Easy, just flip that switch on your GitHub repository from private to public and tell the world about your software via your blog, Twitter, Hacker News, and over beers at your local pub. Then sit back, relax, and enjoy being part of something big.
+For the second half, we learned about different types of memory (working, explicit/implicit, long-term memory), categorization, language comprehension/acquisition, skill acquisition, problem-solving, and future areas of study.
 
-[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=3267432)
+I found many of the lectures to be interesting to connect dots with computer science, especially perception, memory and categorization.
+
+### *Introduction to Psychopathology*
+This class was more difficult for me, specifically the exams. Because classes were synchronous and online, the exams were based upon the textbook to accommodate time zone differences. To prevent cheating, the exams had a short time limit and you could not go back once you answered a question.
+
+However, for me, I learn best not by reading the textbook, even though the professor said that that was the most effective study technique. And my preferred test-taking strategy relies heavily on pacing so it does not work well with time pressure and irreversible answering.
+
+One thing I will do moving forward is to space out learning from material. Sometimes I underestimated how much material the textbook had, so I didn't take enough time to pace my learning and fully absorb the knowledge.
+
+
+
+### **what's next?**
+The courses that I plan for next semester include: Linear Algebra, Calculus III, Intro to Behavioral Psychology, and Contemporary Moral Issues.
+
+Next semester I plan to be more consistent and disciplined in my study and work schedule.
