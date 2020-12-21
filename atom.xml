@@ -9,7 +9,7 @@
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://dorayguo.github.io/</id>
  <author>
-   <name>Dora GUo</name>
+   <name>Dora Guo</name>
    <email>doraguo@umich.edu</email>
  </author>
 
