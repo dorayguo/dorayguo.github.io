@@ -24,4 +24,4 @@ I also organized and conducted 10 cognitive walkthroughs with existing customers
  -  Automated process time to check SaaS application for correct configurations from 6 months to *2 weeks*
  - Identified 6 issues in existing onboarded applications with updated testing standards
 
-*Check out [this post]({%  post_url  2020-08-30-my-Summer-2020-internship %}) for what I've learned from this internship.*
+Check out [this post]({%  post_url  2020-08-30-my-Summer-2020-internship %}) for what I've learned from this internship.
