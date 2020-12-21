@@ -7,7 +7,7 @@ categories: project
 {{ page.title }}
 ================
 
-<p class="meta">15 Dec 2020 - Michigan</p>
+<p class="meta">13 Dec 2020 - Michigan</p>
 
 #### 1. Course Availability Checker
 
