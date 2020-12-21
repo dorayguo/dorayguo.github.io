@@ -9,7 +9,6 @@ categories: project
 
 <p class="meta">15 Dec 2020 - Michigan</p>
 
-
 #### 1. Course Availability Checker
 
 After watching Kalle Hallden's [Youtube video](https://www.youtube.com/watch?v=CHUxmVVH2AQ&t=246s) about basic of web scraping, I thought back to one of my previous ideas. While registering for Fall 2020, it was a lot of repeated work to check if a class had open seats, especially if you are monitoring multiple classes everyday.
