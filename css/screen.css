@@ -157,6 +157,12 @@ ul.posts {
 /*
 /*****************************************************************************/
 
+#about h1 {
+  font-family: Perpetua;
+  color: #995634;
+  font-style: italic;
+}
+
 #about .text {
   font-family: Perpetua;
 }
