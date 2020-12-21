@@ -23,14 +23,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Perpetua;
   font-size: 100%;
 }
 
 h1 {
   margin-bottom: 1em;
-  color: #995634;
-  font-style: italic;
 }
 
 p {
@@ -59,6 +56,12 @@ table {
 /* Home
 /*
 /*****************************************************************************/
+
+#home h1 {
+  font-family: Perpetua;
+  color: #995634;
+  font-style: italic;
+}
 
 ul.posts {
   list-style-type: none;
