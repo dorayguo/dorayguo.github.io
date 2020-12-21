@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "web-scraping-scripts"
+title: "Web Scraping Scripts"
 categories: project
 ---
 
