@@ -63,6 +63,8 @@ table {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  text-decoration: none;
+  font-family: Perpetua;
 }
 
   ul.posts li {
@@ -71,7 +73,6 @@ ul.posts {
 
   ul.posts span {
     color: black;
-    font-family: Perpetua;
     font-size: 80%;
   }
 
@@ -91,13 +92,13 @@ ul.posts {
 
 .title {
   color: #3f2a0a;
-  font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
     color: #3f2a0a;
     text-decoration: none;
+    font-family: Perpetua;
   }
 
   .site .title a:hover {
@@ -108,6 +109,7 @@ ul.posts {
     color: #5a7083;
     text-decoration: none;
     margin-left: 1em;
+    font-family: Perpetua;
   }
 
   .site .title a.extra:hover {
