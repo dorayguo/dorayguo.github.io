@@ -7,7 +7,7 @@ categories: project
 {{ page.title }}
 ================
 
-<p class="meta">20 Dec 2020 - Michigan</p>
+<p class="meta">14 Dec 2020 - Michigan</p>
 
 This website is a place for my reflections, thoughts, and project descriptions.
 
