@@ -114,10 +114,11 @@ ul.posts {
     text-decoration: none;
     margin-left: 1em;
     font-family: Perpetua;
+    font-size: 15px;
   }
 
   .site .title a.extra:hover {
-    color: #5a7083;
+    
   }
 
   .site .meta {
