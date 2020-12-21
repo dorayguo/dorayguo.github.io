@@ -49,6 +49,8 @@ a:visited {
 table {
   font-size: inherit;
   font: 100%;
+  border: 1px solid black;
+  padding: 1px;
 }
 
 /*****************************************************************************/
