@@ -23,6 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Perpetua;
   font-size: 100%;
 }
 
@@ -35,7 +36,7 @@ p {
 }
 
 a {
-  color: #00a;
+  color: black;
 }
 
 a:hover {
@@ -43,7 +44,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: black;
 }
 
 table {
@@ -68,7 +69,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
+    font-family: Perpetua;
     font-size: 80%;
   }
 
