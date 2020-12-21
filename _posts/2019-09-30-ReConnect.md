@@ -17,4 +17,4 @@ At MHacks 12, our team of 4 created a site that reminds lonely users of their gr
 
 #### Details:
  - Presented at final demo.
- - [ReConnect | Devpost](https://devpost.com/software/reconnect-dwjnzb)
+ - [Devpost](https://devpost.com/software/reconnect-dwjnzb)
