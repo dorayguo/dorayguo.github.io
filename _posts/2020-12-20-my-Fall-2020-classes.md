@@ -78,6 +78,6 @@ One thing I will do moving forward is to space out learning from material. Somet
 
 
 ### **what's next?**
-The courses that I plan for next semester include: Linear Algebra, Calculus III, Intro to Behavioral Psychology, and Contemporary Moral Issues.
+The courses that I plan for next semester include: Intro to Computer Organization, Calculus III, Intro to Behavioral Psychology, and Contemporary Moral Issues.
 
 Next semester I plan to be more consistent and disciplined in my study and work schedule.
