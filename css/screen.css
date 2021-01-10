@@ -60,8 +60,6 @@ table, th, td {
   html, body {
     max-width: 100%;
     width: 100vw;
-  }
-  body {
     margin-left: 5%;
     margin-right: 5%;
   }
