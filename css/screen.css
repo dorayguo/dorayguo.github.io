@@ -71,6 +71,7 @@ table, th, td {
   .extra {
     font-size: 25px;
   }
+  .site: max-width: 100vw;
 }
 
 /*****************************************************************************/
@@ -110,7 +111,6 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  max-width: 100vw;
   width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
