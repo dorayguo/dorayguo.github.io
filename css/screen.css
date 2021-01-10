@@ -68,7 +68,12 @@ table, th, td {
 
   a {
     overflow-wrap: break-word;
-    font-size: 10px;
+  }
+  #home-name {
+    font-size: 25px;
+  }
+  .extra {
+    font-size: 22px;
   }
 }
 
