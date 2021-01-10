@@ -57,6 +57,7 @@ table, th, td {
   /* For mobile phones: */
   body {
     margin-left: 5%;
+    background-color: grey;
   }
 }
 
