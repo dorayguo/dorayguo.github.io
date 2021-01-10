@@ -60,6 +60,15 @@ table, th, td {
   body {
     margin-left: 5%;
   }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    overflow-wrap: break-word;
+  }
+
+  a {
+    overflow-wrap: break-word;
+    font-size: 10px;
+  }
 }
 
 /*****************************************************************************/
