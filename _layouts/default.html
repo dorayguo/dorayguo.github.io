@@ -25,6 +25,7 @@
   <div class="title">
     <a id="home-name" href="/">Dora Guo</a>
     <a class="extra" href="/about.html">about me</a>
+    <button onclick="myFunction()">Dark mode</button>
   </div>
 
   {{ content }}
@@ -50,6 +51,13 @@
     </div>
   </div>
 </div>
-
+   
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+   
 </body>
 </html>
