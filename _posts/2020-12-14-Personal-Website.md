@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Personal Website"
+title: "Personal Blog"
 categories: project
 ---
 
