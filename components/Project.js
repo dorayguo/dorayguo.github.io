@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function Project({title, description, time}) {
     return (
         <div className="project">

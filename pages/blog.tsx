@@ -28,7 +28,6 @@ export default function Blog({posts}: InferGetServerSidePropsType<typeof getStat
 export async function getStaticProps() {
   // Get files from the posts dir
   const files = fs.readdirSync(path.join('posts'))
-  console.log(files)
 
   // Get slug and frontmatter from posts
   const posts = files.map(filename => {

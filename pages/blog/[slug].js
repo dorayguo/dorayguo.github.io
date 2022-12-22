@@ -2,11 +2,9 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
-import Link from 'next/link'
 import Head from 'next/head'
 
 export default function PostPage({frontmatter: {title, date, excerpt, cover_image, image_caption, alt_text}, slug, content}) {
-    console.log("alt: ", alt_text)
     return <div className='post'>
         <Head>
             <title>Dora&apos;s blog | {title}</title>
