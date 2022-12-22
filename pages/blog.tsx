@@ -16,7 +16,8 @@ export default function Blog({posts}: InferGetServerSidePropsType<typeof getStat
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.ico" />
       </Head>
-      <img src="tree.jpg" alt='mirror selfie of woman with black hair'></img>
+      <img src="tree.jpg" alt='Dying oak tree still standing, surrounded by foliage.'></img>
+      <p className="caption">Photo taken at the Bloedel Reserve in Bainbridge Island, WA.</p>
       <hr></hr>
       <div className="posts">
         {posts.map((post, index) => (
