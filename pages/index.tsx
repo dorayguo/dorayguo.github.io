@@ -159,7 +159,7 @@ export default function Home() {
         </div>
         <div className="blurb">
           <p>Hi, nice to meet you :)</p>
-          <p>I'm Dora (she / her) and I study Computer Science at the University of Michigan, Ann Arbor.</p>
+          <p>I&apos;m Dora (she / her) and I study Computer Science at the University of Michigan, Ann Arbor.</p>
           <p>I like dancing, reading, and writing! Thinking about tech \ race \ power.</p>
           {/* <ul className="heart-list">
             <li>dance</li>
