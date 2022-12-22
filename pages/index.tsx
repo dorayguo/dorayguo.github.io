@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Experience from '../components/Experience'
 import Project from '../components/Project'
+import Image from 'next/image'
 
 const experiences = [
   {
@@ -152,7 +153,7 @@ export default function Home() {
       </Head>
       <div className="blurb-container">
         <div>
-          <img id="dora" src="dora.jpg" alt="Picture of woman with black hair in a rose garden and under blue skies"></img>
+          <Image id="dora" src="dora.jpg" alt="Picture of woman with black hair in a rose garden and under blue skies"></Image>
           <p className="caption">
             Photo taken at the International Rose Test Garden in Portland, OR.
           </p>
