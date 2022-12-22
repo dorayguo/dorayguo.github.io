@@ -30,14 +30,6 @@ ul {
   font-size: 18px;
 }
 
-.heart-list {
-  margin-left: 25px;
-}
-
-.heart-list li {
-  /* list-style: "♥💗 "; */
-  list-style: "💗 ";
-}
 
 a {
   color: #2F80ED;
@@ -60,8 +52,6 @@ hr {
 }
 
 hr:after {
-  /* background: #FEFBF8; */
-  /* content: '§'; */
   content: '💗';
   padding: 0 4px;
   position: relative;
@@ -136,7 +126,6 @@ footer {
   font-family: 'Aref Ruqaa', sans-serif;
   font-weight: 500;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  /* text-shadow: 2px 2px black; */
   padding-bottom: 10px;
   text-align: center;
 }
@@ -166,9 +155,7 @@ footer {
 .box-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   justify-content: center;
-  /* max-width: 630px; */
 }
 
 .box {
@@ -227,9 +214,7 @@ footer {
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   justify-content: center;
-  /* max-width: 630px; */
 }
 
 .project {
@@ -258,7 +243,6 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   bottom: 8px;
-  /* left: 7px; */
   font-size: smaller;
 }
 
@@ -322,8 +306,4 @@ footer {
   header {
     padding-bottom: 3vh;
   }
-
-  /* .posts {
-    grid-template-columns: 1fr;
-  } */
 }
